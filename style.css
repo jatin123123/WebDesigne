@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Gilroy";
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1686476020928-1834ccef445b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyOTM1NjN8fGVufDB8fHx8fA%3D%3D);
+}
+#nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.151);
+    position: relative;
+    padding: 20px 20px;
+}
+#nav #navelm{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#icon{
+    position: absolute;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: beige;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navelm{
+    display: flex;
+    gap: 30px;
+    text-decoration: none;
+}
+#navelm a{
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    position: relative;
+}
+#navelm #jatin::before{
+    content: "";
+    width: 40%;
+    height: 3px;
+    color: #fff;
+    background-color: #fff;
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#nav h5{
+    color: #fff;
+    font-size: 19px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /* background-color: #fff; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid rgb(255, 255, 255);
+}
+#text{
+    width: 40%;
+   color: #fff;
+    position: absolute;
+    top:50%;
+    left: 5%;
+    transform: translate(0%,-50%);
+
+}
+#text span{
+    line-height: 25px;
+    font-size: 30px;
+}
+#text h6{
+    display: flex;
+    
+}
+#text h1{
+    font-size: 90px;
+    line-height: 1;
+    margin-top: 40px;
+}
+#textline{
+    width: 200px;
+    height: 2px;
+    background-color: #fff;
+}
+#para{
+    display: flex;
+    margin-top: 50px;
+}
+#para p{
+    width: 50%;
+    margin-top:-5px ;
+    line-height: 20px;
+    font-size: 12px;
+}
+#bottom{
+    width: 70%;
+    height: 20%;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+#bottom p{
+    opacity: .5;
+}
+#cube{
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    color: #fff;
+    position: absolute;
+    top: -60px;
+    right: -60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
